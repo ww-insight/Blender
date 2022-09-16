@@ -1,0 +1,15 @@
+>>> import math
+>>> math.sqrt(26.3454**2 + 0.6432**2)
+26.35325041432271
+
+scale xy 0.980259
+
+
+>>> math.sqrt([v for v in bpy.context.active_object.data.vertices if v.select][0].co.x**2 + [v for v in bpy.context.active_object.data.vertices if v.select][0].co.y**2)
+25.728559461353246 top
+
+>>> math.sqrt([v for v in bpy.context.active_object.data.vertices if v.select][0].co.x**2 + [v for v in bpy.context.active_object.data.vertices if v.select][0].co.y**2)
+25.723038090100488
+
+-31.4512 m
+-21.7109 m
